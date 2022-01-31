@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Advanced Search</title>
+    </head>
+    <body>
+        <!-- Page Navigation -->
+        <div class="advanced-logo">
+            <a href="index.html">
+                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_light_clr_74x24px.svg" alt="Google logo" id="small" />
+            </a>
+        </div>
+        <div class="nav">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div class="appbar">
+            <label>Advanced Search</label>
+        </div>
+        <div class="line"></div>
+        <!-- Search Function -->
+        <div class="advanced-search-function">
+            <form action="https://www.google.com/search">
+                <span>Find pages with...</span>
+                <div class="fields">
+                    <div class="text-prompt">
+                        <label>all these words:</label>
+                        <input type="text" name="as_q" value autofocus="autofocus">
+                    </div>
+                    <div class="text-prompt">
+                        <label>this exact word or phrase:</label>
+                        <input type="text" name="as_epq">
+                    </div>
+                    <div class="text-prompt">
+                        <label>any of these words:</label>
+                        <input type="text" name="as_oq">
+                    </div>
+                    <div class="text-prompt">
+                        <label>none of these words:</label>
+                        <input type="text" name="as_eq">
+                    </div>
+                    <div class="text-prompt" id="advanced-button">
+                        <input type="submit" class="button-blue" value="Advanced Search">
+                    </div>
+                    <div class="text-prompt" id="spacer"></div>
+                </div>
+
+            </form>
+        </div>
+        <div class="line" id="short"></div>
+    </body>
+</html>
